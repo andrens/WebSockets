@@ -5,5 +5,5 @@ npm init<br>
 npm install express --save<br>
 npm install socket.io --save<br>
 <br>
-node socket.js<br>
+node server.js<br>
 

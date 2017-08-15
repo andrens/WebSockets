@@ -14,4 +14,9 @@ io.sockets.on('connection', newConnection);
 
 function newConnection(socket) {
 	console.log('new connection: ' + socket.id);
+	socket.on('mouse', function(data) {
+		socket.broadcast.emit('mouse', data);
+		// io.socket.emit('mouse', data); //global
+		console.log(data);
+	});
 }
