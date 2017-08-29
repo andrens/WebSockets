@@ -3,7 +3,7 @@ var socket;
 setup();
 
 function setup() {
-	socket = io.connect('http://localhost:3000');
+	socket = io.connect('https://drawpaint.herokuapp.com:3000');
 	socket.on('mouse', autoPaint);
 }
 
