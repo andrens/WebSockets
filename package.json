@@ -7,13 +7,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "engines": {
+    "node": "6.11.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andrens/WebSockets.git"
   },
   "keywords": [
     "websockets",
-    "p5.js"
+    "p5.js", 
+    "heroku"
   ],
   "author": "André Nunes",
   "license": "ISC",
