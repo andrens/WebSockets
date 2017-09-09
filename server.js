@@ -9,8 +9,12 @@ app.use(express.static(__dirname + '/public'));
 
 console.log("My socket server is runnig");
 
-var socket = require('socket.io');
-var io = socket(server);
+app.listen(server, function() {
+	console.log("tá rolando o simples");
+});
+/*
+var socket 	= require('socket.io');
+var io 		= socket(server);
 
 io.sockets.on('connection', newConnection);
 
