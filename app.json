@@ -5,4 +5,13 @@
   "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
   "keywords": ["node", "express", "heroku"],
   "image": "heroku/nodejs"
+},
+{
+  "environments": {
+    "test": {
+      "env": {
+        "PHOTON_TORPEDOES": "online"
+      }
+    }
+  }
 }
