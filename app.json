@@ -2,7 +2,7 @@
   "name": "WebSockets: Node.js",
   "description": "A Websockets Node.js app javascript and canvas",
   "repository": "https://github.com/andrens/WebSockets",
-  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "logo": "https://cdn.jsdelivr.net/gh/heroku/node-js-getting-started@master/public/node.svg",
   "keywords": ["node", "express", "heroku"],
   "image": "heroku/nodejs"
 },
